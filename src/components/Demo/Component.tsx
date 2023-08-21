@@ -50,6 +50,7 @@ const Demo: React.FC<ILanguageQueryProps> = ({ languageServiceId }) => {
         width={772}
         cancelText="取消"
         okText="确定"
+        maskClosable={false}
         onCancel={() => {
           set({ visible: false });
         }}
